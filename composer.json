@@ -1,0 +1,24 @@
+{
+	"name": "maximal/yii2-webp-thumbnailer",
+	"description": "Yii2 (over Imagine) helper for creating and caching WebP thumbnails in real time",
+	"keywords": ["yii2", "webp", "thumbnail", "image", "imagine", "helper", "extension"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "maximal",
+			"email": "almaximal@ya.ru",
+			"homepage": "https://github.com/maximal"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"maximal/php-webp-thumbnailer": "*",
+		"yiisoft/yii2-imagine": "~2.1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"maximal\\thumbnail\\yii\\": ""
+		}
+	}
+}
